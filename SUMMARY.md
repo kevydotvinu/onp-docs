@@ -22,25 +22,15 @@
 
 ## User Guide
 
+* [Cockpit Console](user-guide/cockpit-console.md)
+* [CLI Tool](user-guide/cli-tool.md)
 * [OpenShift Bare Metal IPI Cluster](user-guide/openshift-bare-metal-ipi-cluster.md)
 * [Single Node OpenShift Cluster](user-guide/single-node-openshift-cluster.md)
 * [Backup OpenShift Releases](user-guide/backup-openshift-releases.md)
 * [Additional Network Interfaces](user-guide/additional-network-interfaces.md)
 * [Cluster Node Access](user-guide/cluster-node-access.md)
-* [IPv6 Cluster](user-guide/ipv6-cluster.md)
 * [Debug Tools](user-guide/debug-tools.md)
 * [Collection of Manifests](user-guide/collection-of-manifests.md)
-
-## User interface
-
-* [GUI](user-interface/gui/README.md)
-  * [Manage Virtual Machines](user-interface/gui/manage-virtual-machines.md)
-  * [Manage Containers](user-interface/gui/manage-containers.md)
-  * [Deploy Cluster](user-interface/gui/deploy-cluster.md)
-* [CLI](user-interface/cli/README.md)
-  * [Deploy Kind Cluster](user-interface/cli/deploy-kind-cluster.md)
-  * [Deploy SNO Cluster](user-interface/cli/deploy-sno-cluster.md)
-  * [Customize OpenShift Deployment](user-interface/cli/customize-openshift-deployment.md)
 
 ## Troubleshooting
 

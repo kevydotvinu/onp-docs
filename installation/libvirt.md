@@ -1,6 +1,6 @@
 # Libvirt
 
-The Libvirt installation uses `virt-install` command. We can also use `virt-manger` GUI. Even after the installation is done through the `virt-install` command, we can use `virt-manager` to access the machine using the SSH connection.
+The Libvirt installation uses `virt-install` command. We can also use `virt-manger` GUI. Even if the installation is done through the `virt-install` command, we can use `virt-manager` to access the machine using the SSH connection.
 
 ## Download
 

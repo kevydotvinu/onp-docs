@@ -10,12 +10,22 @@ To store the cluster, onp takes the below actions.
 * Copy the virtual machine disk to another location.
 * Copy the `kubeconfig` and `kubeadmin-password` files to another location.
 
-The restoration takes the reverse and wait for the cluster to initialize properly.
+The restoration takes the reverse and waits for the cluster to initialize properly.
 
 {% hint style="info" %}
 **INFO**
 
 Check if there is any pending CSR and approve it when the cluster initializes.
-
-
 {% endhint %}
+
+## Store release
+
+```
+onp store-release FROM=4.13.0
+```
+
+## Restore release
+
+```
+onp restore-release TO=4.13.0
+```

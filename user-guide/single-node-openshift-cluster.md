@@ -31,11 +31,5 @@ onp sno64 RELEASE=stable OCM_TOKEN=<ocm-token>
 {% hint style="info" %}
 **INFO**
 
-Get OCM\_TOKEN from [https://cloud.redhat.com/openshift/token/show](https://cloud.redhat.com/openshift/token/show)
-{% endhint %}
-
-{% hint style="info" %}
-**TIP**
-
-OCM\_TOKEN only requires at the first deployment. The pullsecret saves locally.
+Get OCM\_TOKEN from [https://cloud.redhat.com/openshift/token/show](https://cloud.redhat.com/openshift/token/show). It only requires at the first deployment. The pullsecret saves locally.
 {% endhint %}
