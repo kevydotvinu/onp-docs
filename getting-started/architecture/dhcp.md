@@ -8,6 +8,8 @@ Multiple DHCP servers are running on the ONP environment. The below are the list
 
 It uses `dnsmasq` under the hood. The container builds and starts automatically if it is enabled as it is managed by the systemd.
 
+<table data-header-hidden data-full-width="false"><thead><tr><th width="242"></th><th></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td>Directory</td><td><code>/opt/openshift-network-playground/dhcp/</code></td><td></td><td></td></tr><tr><td>Service</td><td>dhcp<code>.service</code></td><td></td><td></td></tr></tbody></table>
+
 ```
 no-daemon
 interface=<interface>

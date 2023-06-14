@@ -5,6 +5,8 @@
 For the host, it uses the NetworkManager + dnsmasq combination. The required entries are added in the `/etc/hosts` and `/etc/NetworkManger/dnsmasq.d/openshift-network-playground.conf` files.
 
 {% hint style="info" %}
+**INFO**
+
 For host DNS issues, restart `NetworkManger`
 {% endhint %}
 
