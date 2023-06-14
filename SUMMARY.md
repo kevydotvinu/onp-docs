@@ -13,24 +13,23 @@
   * [NAT64](getting-started/architecture/nat64.md)
   * [PXE](getting-started/architecture/pxe.md)
 
-## Features
-
-* [Zero Touch Installation](features/zero-touch-installation.md)
-* [OpenShift Bare Metal IPI Cluster](features/openshift-bare-metal-ipi-cluster.md)
-* [Single Node OpenShift Cluster](features/single-node-openshift-cluster.md)
-* [Backup OpenShift Releases](features/backup-openshift-releases.md)
-* [Additional Network Interfaces](features/additional-network-interfaces.md)
-* [Cluster Node Access](features/cluster-node-access.md)
-* [IPv6 Cluster](features/ipv6-cluster.md)
-* [Debug Tools](features/debug-tools.md)
-* [Collection of Manifests](features/collection-of-manifests.md)
-
 ## Installation
 
 * [Prerequisites](installation/prerequisites.md)
 * [vSphere](installation/vsphere.md)
 * [RHEV](installation/rhev.md)
 * [Libvirt](installation/libvirt.md)
+
+## User Guide
+
+* [OpenShift Bare Metal IPI Cluster](user-guide/openshift-bare-metal-ipi-cluster.md)
+* [Single Node OpenShift Cluster](user-guide/single-node-openshift-cluster.md)
+* [Backup OpenShift Releases](user-guide/backup-openshift-releases.md)
+* [Additional Network Interfaces](user-guide/additional-network-interfaces.md)
+* [Cluster Node Access](user-guide/cluster-node-access.md)
+* [IPv6 Cluster](user-guide/ipv6-cluster.md)
+* [Debug Tools](user-guide/debug-tools.md)
+* [Collection of Manifests](user-guide/collection-of-manifests.md)
 
 ## User interface
 
