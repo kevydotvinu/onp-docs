@@ -6,6 +6,8 @@ The OpenShift Network Playground allows to deploy the below three different SNO 
 * Single-stack IPv6
 * Dual-stack
 
+## Installation
+
 The SNO deployment can only be done using the CLI with `onp` command.
 
 {% tabs %}
@@ -33,3 +35,25 @@ onp sno64 RELEASE=stable OCM_TOKEN=<ocm-token>
 
 Get OCM\_TOKEN from [https://cloud.redhat.com/openshift/token/show](https://cloud.redhat.com/openshift/token/show). It only requires at the first deployment. The pullsecret saves locally.
 {% endhint %}
+
+## Access
+
+{% tabs %}
+{% tab title="IPv4" %}
+```
+sno4 get clusterversion
+```
+{% endtab %}
+
+{% tab title="IPv6" %}
+```
+sno6 get clusterversion
+```
+{% endtab %}
+
+{% tab title="Dual-stack" %}
+```
+sno64 get clusterversion
+```
+{% endtab %}
+{% endtabs %}

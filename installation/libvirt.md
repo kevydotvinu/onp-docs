@@ -4,9 +4,11 @@ The Libvirt installation uses `virt-install` command. We can also use `virt-mang
 
 ## Download
 
+{% code overflow="wrap" %}
 ```bash
 curl -LO https://github.com/kevydotvinu/openshift-network-playground/releases/download/v0.1.0/onp-v0.1.0-x86_64.iso
 ```
+{% endcode %}
 
 ## Installation
 

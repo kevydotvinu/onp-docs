@@ -71,9 +71,11 @@ It is not possible to access the OpenShift console from OpenShfit Network Playgr
 
 #### Outside ONP
 
-```
+{% code overflow="wrap" %}
+```bash
 echo "onp-ip> console-openshift-console.apps.ocp.example.local oauth-openshift.apps.ocp.example.local" | sudo tee /etc/hosts
 ```
+{% endcode %}
 
 * [https://console-openshift-console.apps.ocp.example.local](https://console-openshift-console.apps.ocp.example.local)
 {% endtab %}
