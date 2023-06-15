@@ -29,7 +29,7 @@
 * [Backup OpenShift Releases](user-guide/backup-openshift-releases.md)
 * [Additional Network Interfaces](user-guide/additional-network-interfaces.md)
 * [Cluster Node Access](user-guide/cluster-node-access.md)
-* [Debug Tools](user-guide/debug-tools.md)
+* [Tools](user-guide/tools.md)
 * [Collection of Manifests](user-guide/collection-of-manifests.md)
 
 ## Troubleshooting
