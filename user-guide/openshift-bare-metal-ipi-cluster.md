@@ -2,7 +2,7 @@
 
 ## How it works
 
-It uses VirtualBMC service in front of the cluster nodes. In the `install-config.yaml` file, the BMC information will be shared. The installer interact with the VBMC to turn ON the nodes when it requires. To know more about VBMC, please see [this](https://github.com/openstack/virtualbmc).
+It uses VirtualBMC service in front of the cluster nodes. In the `install-config.yaml` file, the BMC information will be shared. The installer interacts with the VBMC to turn ON the nodes when it requires. To know more about VBMC, please see [this](https://github.com/openstack/virtualbmc).
 
 ## Cockpit installation
 
@@ -13,6 +13,8 @@ The bare metal IPI cluster deployment does not require any configuration in Open
 * Click `Deploy`
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/deploy-cluster (1).png" alt=""><figcaption></figcaption></figure>
 
 The credentials of the newly deployed cluster can be shown by clicking the `show` button on the top.
 

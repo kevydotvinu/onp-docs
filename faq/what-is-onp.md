@@ -1,33 +1,8 @@
 # What is ONP?
 
-<details>
+The OpenShift Network Playground is a lab environment with both a web-based and cli-based interface built for advanced OpenShift users to provide the ease of quickly building and testing different OpenShift network scenarios. The key benefits are:
 
-<summary>Step1: Creating your organization</summary>
-
-
-
-</details>
-
-<details>
-
-<summary>Step 2: Inviting your team</summary>
-
-
-
-</details>
-
-<details>
-
-<summary>Step 3: Making your first post</summary>
-
-
-
-</details>
-
-<details>
-
-<summary>Step 4: Publishing a post</summary>
-
-
-
-</details>
+* OpenShift IPI cluster
+* Additional network interfaces
+* IPv6 OpenShift cluster
+* OpenShift cluster node access without network
