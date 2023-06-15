@@ -40,3 +40,42 @@ Get OCM\_TOKEN from [https://cloud.redhat.com/openshift/token/show](https://clou
 Multiple clicks on `Deploy` the button will not interrupt the OpenShift cluster installation. Stop `deply-cluster.service` before initiating the second cluster deployment.
 {% endhint %}
 
+## OpenShift Cluster Access
+
+{% tabs %}
+{% tab title="CLI" %}
+#### Inside ONP
+
+```
+oc get clusterversion
+```
+
+{% hint style="info" %}
+**INFO**
+
+The `KUBECONFIG` environment variable has been configured in the `~/.bashrc`.
+{% endhint %}
+
+#### Outside ONP
+
+```
+echo "<onp-ip> api.ocp.example.local" | sudo tee /etc/hosts
+oc login -u kubeadmin -p <password> https://api.ocp.example.local:6443
+```
+{% endtab %}
+
+{% tab title="Console" %}
+#### Inside ONP
+
+It is not possible to access the OpenShift console from OpenShfit Network Playground.
+
+#### Outside ONP
+
+```
+echo "onp-ip> console-openshift-console.apps.ocp.example.local oauth-openshift.apps.ocp.example.local" | sudo tee /etc/hosts
+```
+
+* [https://console-openshift-console.apps.ocp.example.local](https://console-openshift-console.apps.ocp.example.local)
+{% endtab %}
+{% endtabs %}
+
