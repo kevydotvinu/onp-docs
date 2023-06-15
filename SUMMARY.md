@@ -34,7 +34,7 @@
 
 ## Troubleshooting
 
-* [Cluster deployment](troubleshooting/cluster-deployment.md)
+* [Cockpit Cluster deployment](troubleshooting/cockpit-cluster-deployment.md)
 
 ## FAQ
 

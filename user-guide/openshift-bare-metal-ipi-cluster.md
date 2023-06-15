@@ -8,7 +8,15 @@ It uses VirtualBMC service in front of the cluster nodes. In the `install-config
 
 The bare metal IPI cluster deployment does not require any configuration in OpenShift Network Playground. Once the ONP is ready, the `onp deploy RELEASE=stable` command can be executed to start the installation. The Cockpit also gives the option to do the deployment.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+* Enter the release
+* Enter `OCM_TOKEN`
+* Click `Deploy`
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+The credentials of the newly deployed cluster can be shown by clicking the `show` button on the top.
+
+<figure><img src="../.gitbook/assets/cluster-cred-show.png" alt=""><figcaption></figcaption></figure>
 
 ## CLI installation
 
