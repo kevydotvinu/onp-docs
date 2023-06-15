@@ -6,9 +6,7 @@ The OCM token is used to download the pullsecret and save it locally. It can be 
 
 ## Machine
 
-|      Machine     | CPU |  RAM  |  DISK  |
-| :--------------: | :-: | :---: | :----: |
-| VM or Bare-metal |  20 | 80 GB | 320 GB |
+<table><thead><tr><th align="center">Machine</th><th width="150" align="center">CPU</th><th width="191" align="center">RAM</th><th align="center">DISK</th></tr></thead><tbody><tr><td align="center">VM or Bare-metal</td><td align="center">20</td><td align="center">80 GB</td><td align="center">320 GB</td></tr></tbody></table>
 
 {% hint style="info" %}
 **INFO**
