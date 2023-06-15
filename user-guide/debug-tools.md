@@ -22,6 +22,6 @@ In OpenShift Network Playground Kind uses `podman` rather than `docker`.
 
 > KIND (Kubernetes in Docker) deployment of OVN kubernetes is a fast and easy means to quickly install and test kubernetes with OVN kubernetes CNI. The value proposition is really for developers who want to reproduce an issue or test a fix in an environment that can be brought up locally and within a few minutes. - [https://github.com/openshift/ovn-kubernetes](https://github.com/openshift/ovn-kubernetes)
 
-## RHCOS Live  CD
+## RHCOS Live CD
 
 It enables the user to create a VM with a separate network and interact with the cluster for some issue reproducers.

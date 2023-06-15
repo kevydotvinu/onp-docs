@@ -34,3 +34,9 @@ onp deploy RELEASE=stable OCM_TOKEN=<ocm-token>
 Get OCM\_TOKEN from [https://cloud.redhat.com/openshift/token/show](https://cloud.redhat.com/openshift/token/show). It only requires at the first deployment. The pullsecret saves locally.
 {% endhint %}
 
+{% hint style="info" %}
+**INFO**
+
+Multiple clicks on `Deploy` the button will not interrupt the OpenShift cluster installation. Stop `deply-cluster.service` before initiating the second cluster deployment.
+{% endhint %}
+
