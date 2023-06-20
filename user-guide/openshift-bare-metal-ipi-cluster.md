@@ -12,7 +12,7 @@ The bare metal IPI cluster deployment does not require any configuration in Open
 * Enter `OCM_TOKEN`
 * Click `Deploy`
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/deploy-cluster (1).png" alt=""><figcaption></figcaption></figure>
 
