@@ -5,6 +5,7 @@ The debug tools which are available in the OpenShift Network Playground are list
 * network-tools
 * Kind cluster
 * Kind cluster with OVN
+* RHCOS machine
 * RHCOS Live CD
 
 ## Network-tools
@@ -21,6 +22,10 @@ In OpenShift Network Playground Kind uses `podman` rather than `docker`.
 ## Kind cluster with OVN
 
 > KIND (Kubernetes in Docker) deployment of OVN kubernetes is a fast and easy means to quickly install and test kubernetes with OVN kubernetes CNI. The value proposition is really for developers who want to reproduce an issue or test a fix in an environment that can be brought up locally and within a few minutes. - [https://github.com/openshift/ovn-kubernetes](https://github.com/openshift/ovn-kubernetes)
+
+## RHCOS machine
+
+It needs a butane file to start. If the file path is omitted, it takes the default file that enables the serial console autologin functionality. The network can also be selected while creating the machine.
 
 ## RHCOS Live CD
 
